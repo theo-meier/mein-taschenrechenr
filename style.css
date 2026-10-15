@@ -1,0 +1,71 @@
+.title{
+    padding: 10px;
+    font-family: "DSEG7", monospace;
+}
+@font-face {
+  font-family: "DSEG7";
+  src: url("fonts/DSEG7Classic-Regular.woff2")
+       format("woff2");
+}
+#geheimBild {
+  display: none;
+  width: 200px;
+  margin-top: 20px;
+}  
+.display{
+    padding: 10px;
+    border-radius: 5%;
+    background-color: lightblue;
+    height: 50px;
+    font-size: 1cm;
+    font-family: "DSEG7", monospace;
+}
+.display:hover{
+    background-color: seagreen;
+}
+.calc{
+    border-radius: 10px;
+    max-width: 25%;
+    padding: 10px;
+    
+}
+.specials{
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    padding-left: 25px;
+}
+.zeichen{
+    display: flex;
+    justify-content: space-evenly;  
+}
+.tief{
+    display: flex;
+    justify-content: space-evenly;
+}
+.mittel{
+    display: flex;
+    justify-content: space-evenly;
+}
+.hoch{
+    display: flex;
+    justify-content: space-evenly;
+}
+.null{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 26px; 
+    gap: 24px;
+}
+button{
+    background-color: gray;
+    height: 60px;
+    width: 80px;
+    border-radius: 8px;
+    font-family: "DSEG7", monospace;
+    font-size: 0.7cm;
+}
+button:hover{
+    background-color: red;
+
+}
